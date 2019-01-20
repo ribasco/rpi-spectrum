@@ -28,7 +28,6 @@
                 </executions>
                 <configuration>
                     <mainClass>com.ibasco.rpispectrum.SpectrumAnalyzer</mainClass>
-                    <executable>maven</executable>
                 </configuration>
             </plugin>
         </plugins>
