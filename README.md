@@ -31,8 +31,9 @@ mvn clean compile
 
 #### Command Line Syntax
 
-> Pass `-simulation` argument to activate simulation mode. 
-> Pass `-ip` argument to specify the host ip
+> Pass the `-simulation` argument to activate simulation mode. 
+  Pass the `-ip` argument to specify the host ip
+  Pass the `-port` argument to specify the host port
 
 ```bash
 mvn exec:java -Dexec.args="-simulation -ip <host ip address>"
